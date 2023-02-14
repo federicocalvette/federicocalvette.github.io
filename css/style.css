@@ -29,11 +29,16 @@ section {
 
 /* HOME */
 #home {
-    background-color: #0a0908;
-
+    /*background-color: #0a0908;
+    background-image: linear-gradient(to right bottom, #e6200a93, #c71b00b0),
+    url("../img/cta-background.png");
+    background-size: cover;
+    background-position: center;*/
+    background-color:  #0a0908;
 }
 
-.hero_title {
+
+.gradient_title {
     font-size: 4.5rem;
 }
 
@@ -49,7 +54,6 @@ section {
     transform: translate(-50%, -50%);
     color: white;
 }
-
 
 
 /* ABOUT ME */
@@ -205,6 +209,14 @@ section {
 #work {
     background-color: #000;
 }
+
+#work h2{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 8rem;
+    margin-top: 0;
+}
 .work-wrapper {
     height: 100vh;
 }
@@ -231,13 +243,14 @@ section {
 .work-img img {
     display: block;
     width: 100%;
+
 }
 
 .work-img {
     overflow: hidden;
 }
 
-.shadow {
+.work-shadow {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
